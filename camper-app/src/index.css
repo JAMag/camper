@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+
+:root {
+  --core_button_padding: 10px 40px;
+  --core_width: 100%;
+  --core_card_width: 350px;
+  --core_margin: 10px auto;
+  --core_padding: 20px;
+  --top_btm_padding: 10px 0px;
+  --margin_secondary: 40px;
+  --core_text_decoration: underline;
+  --core_text_transform: uppercase;
+
+  --core_darken: brightness(85%);
+  --core_lighten: brightness(115%);
+  --color_primary: #243c82;
+  --light_blue: #5c70aa17;
+  --dark_blue: #08194f;
+  --dark_green: #186a76;
+  --light_green: #4c909a;
+  --dark_purple: #3f2484;
+  --light_purple: #553c96;
+  --light_gray: #e2e4e5;
+  --dark_gray: #909091;
+  --core_black: #1f1f1f;
+  --core_white: #f7f7f7;
+
+  --font_primary: "Open Sans", sans-serif;
+  --font_secondary: "Montserrat", sans-serif;
+
+  --shadow_primary: 5px 5px 15px 5px #3a3a3a;
+  --shadow_secondary: 3px 3px 10px 3px #3a3a3a;
+
+  --border_radius_primary: 9px;
+  --border_radius_secondary: 900px;
+}
+
+element {
+  font-family: var(--font_primary);
+}
+
+body {
+  font-family: var(--font_primary);
+  color: var(--core_black);
+  background-color: var(--core_white);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font_secondary);
+  color: var(--core_black);
+}
+
+ul {
+  font-family: var(--font_secondary);
+  list-style-type: none;
+}
+
+.card {
+  background: var(--light_gray);
+  box-shadow: var(--shadow_primary);
+  margin: var(--margin_secondary);
+  padding: var(--core_padding);
+  width: var(--core_card_width);
+  border-radius: var(--border_radius_primary);
+}
+
+.padding {
+  padding: var(--core_padding);
+}
+
+.btn {
+  padding: var(--core_button_padding);
+  border-radius: var(--border_radius_primary);
+  box-shadow: var(--shadow_primary);
+  color: var(--light_gray);
+  background-color: var(--color_primary);
+  text-transform: var(--core_text_transform);
+  text-align: center;
+}
+
+.btn:hover {
+  cursor: pointer;
+  box-shadow: var(--shadow_secondary);
+  color: var(--core_white);
+  filter: var(--core_lighten);
+  background-color: var(--color_primary);
+}
+
+.btn:active {
+  color: var(--light_gray);
+  cursor: pointer;
+  filter: var(--core_lighten);
+  background-color: var(--color_primary);
+}
+
+.meta-info {
+  font-size: 12px;
+  margin-top: 20px 0px 0px 0px;
+  text-align: right;
+}
+
+.meta-info > ul > li {
+  margin: 0px;
+}
+
+input {
+  border-radius: 9px;
+  border: 0px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+textarea {
+  border-radius: 9px;
+  border: 0px;
+  padding: 10px;
+  margin-bottom: 10px;
+}

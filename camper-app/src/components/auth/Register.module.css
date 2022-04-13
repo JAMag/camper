@@ -1,0 +1,32 @@
+.register {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.register__container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: #dcdcdc;
+  padding: 30px;
+    border-radius: var(--border_radius_primary);
+}
+.register__textBox {
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.register div {
+  margin-top: 7px;
+}
+
+.register_card {
+  background: var(--light_gray);
+  box-shadow: var(--shadow_primary);
+  margin: var(--core_margin);
+  padding: var(--core_padding);
+  width: var(--core_card_width);
+  border-radius: var(--border_radius_primary);
+}

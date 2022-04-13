@@ -1,0 +1,51 @@
+/* 
+img {
+  width: 300px;
+  height: auto;
+  border-radius: 900px;
+  border: 1px solid black;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.message_text {
+  background-color: #e4e4ea;
+  padding: 20px;
+  box-shadow: 5px 5px 15px 5px #3a3a3a;
+  border-radius: 9px;
+}
+
+.doit_btn {
+  padding: 10px 40px;
+  border-radius: 9px;
+  background-color: black;
+  color: white;
+  box-shadow: 5px 5px 15px 5px #3a3a3a;
+}
+
+.delivery_status {
+  /* color: rgb(121, 46, 46); */
+  /* font-style: italic; */
+  /* text-decoration: underline; */
+/* }
+
+.submitted_info {
+  text-align: center;
+  color: gray;
+  font-size: 0.8rem;
+}
+
+.camper_info {
+}
+
+h3 {
+  text-transform: uppercase;
+  color: gray;
+  text-align: center;
+}
+
+h4 {
+  font-size: 1.25rem;
+}  */

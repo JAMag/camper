@@ -1,0 +1,44 @@
+
+.card {
+  background: var(--light_gray);
+  box-shadow: var(--shadow_primary);
+  margin: var(--margin_secondary);
+  padding: var(--core_padding);
+  width: var(--core_width);
+  border-radius: var(--border_radius_primary);
+}
+
+div.expand {
+  height: 797px;
+  transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.round {
+  padding: var(--core_button_padding);
+  border-radius: var(--border_radius_secondary);
+  box-shadow: var(--shadow_primary);
+  color: var(--light_gray);
+  text-decoration: none;
+  padding: 10px;
+  background-color: var(--color_primary);
+  margin: var(--margin_secondary);
+}
+
+.round:hover {
+  cursor: pointer;
+  box-shadow: var(--shadow_secondary);
+  color: var(--core_white);
+  filter: var(--core_lighten);
+  background-color: var(--color_primary);
+}
+
+.round:active {
+  color: var(--light_gray);
+  cursor: pointer;
+  filter: var(--core_lighten);
+  background-color: var(--color_primary);
+}
+
+li {
+  margin: 40px;
+}

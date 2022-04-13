@@ -1,0 +1,23 @@
+
+.delivery_instructions {
+  background-color: var(--core_white);
+  padding: var(--core_padding);
+  border-radius: var(--border_radius_primary);
+}
+
+.delivery_status {
+  background-color: var(--light_blue);
+  padding: var(--core_padding);
+  border-radius: var(--border_radius_primary);
+}
+
+.camper_info {
+  color: var(--core_black);
+  text-align: center;
+}
+
+.camper_name {
+    color: var(--core_black);
+  text-align: left;
+  padding: var(--top_btm_padding);
+}

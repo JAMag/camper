@@ -1,0 +1,25 @@
+img {
+  width: 300px;
+  height: auto;
+  border-radius: var(--border_radius_primary);
+  border: 0px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.delivery_status {
+  font-style: italic;
+}
+
+.message_text {
+  background-color: var(--core_white);
+  padding: var(--core_padding);
+}
+
+.subject {
+  color: var(--color_primary);
+  background-color: var(--core_white);
+  padding: var(--core_padding);
+}

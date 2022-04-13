@@ -1,0 +1,20 @@
+.add_remove {
+  text-align: center;
+}
+
+.cart_card {
+  width: 75%;
+  background: var(--light_gray);
+  box-shadow: var(--shadow_primary);
+  margin: var(--margin_secondary);
+  padding: var(--core_padding);
+  border-radius: var(--border_radius_primary);
+}
+
+.cart_list {
+    margin: 10px;
+}
+
+.cart_img {
+    width: var(--core_width);
+}
